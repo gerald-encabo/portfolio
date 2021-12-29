@@ -1,0 +1,172 @@
+@import "../../components/Media-queries.scss";
+@import "../../components/Color.scss";
+
+.about {
+  min-height: calc(100vh - 150px);
+  width: 100%;
+  color: $lightColor;
+
+  @include small-devices {
+    min-height: calc(100% - 150px);
+  }
+
+  &-wrapper {
+        height: 100%;
+  }
+  &-container {
+        height: 100%;
+  }
+  &-section-one {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 60vh;
+
+        @include small-devices {
+            flex-direction: column;
+            height: 100vh;
+        }
+  }
+  &-section-one-left {
+        flex: 0.4;
+        width: 100%;
+        height: 40vh;
+        z-index: 2;
+
+        @include small-devices {
+            padding: 20px;
+        }
+
+    .logo {
+        border-radius: 50%;
+        border: 15px solid $primaryColor;
+        overflow: hidden;
+        width: 70%;
+        height: 100%;
+        float: right;
+        box-shadow: 0px 0px 30px 3px $darkColor;
+
+        @include medium-devices {
+              float: none;
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              width: 90%;
+        }
+        @include small-devices {
+              width: 70%;
+        }
+    }
+    img {
+        width: 100%;
+        height: 100%;
+        opacity: 0.4;
+      }
+    img:hover {
+        transform: scale(1.1);
+        transition: all 0.3s ease;
+    }
+  }
+  &-section-one-right {
+      flex: 0.6;
+      width: 100%;
+      height: 40vh;
+      padding-left: 50px;
+      padding-right: 50px;
+
+      @include medium-devices {
+          padding-right: 0px;
+          padding-left: 30px;
+      }
+      @include small-devices {
+          justify-content: center;
+          align-items: center;
+          padding: 0px;
+      }
+
+      h4 {
+          color: $fontColor;
+          font-weight: 400;
+          font-size: 20px;
+      }
+      h1 {
+          color: $lightColor;
+          margin: 10px 0;
+          font-size: 50px;
+          letter-spacing: 1px;
+      }
+      h3 {
+          color: $fontColor;
+          font-weight: 400;
+          font-size: 26px;
+          margin-bottom: 14px;
+      
+          span {
+              color: $primaryColor;
+              font-weight: 600;
+          }
+          .ityped-cursor {
+              animation: blink 1s infinite;
+          }
+          @keyframes blink {
+              50% { opacity: 1; }
+              100% { opacity: 0; } 
+          }
+      }
+      p {
+          color: $fontColor;
+          margin-bottom: 20px;
+          font-size: 18px;
+          font-weight: 400;
+      }
+  }
+  &-btn {
+      border-radius: 50px 50px;
+      padding: 4px 16px;
+      font-size: 16px;
+      color: $lightColor;
+      background-color: $darkBackgroundColor;
+      border: 2px solid $primaryColor;
+      cursor: pointer;
+
+      &:hover{
+          border-color: $primaryLightColor;
+      }
+  }
+
+  &-section-two {
+      width: 100%;
+      height: auto;
+  }
+  &-section-two-info {
+      display: flex;
+      width: 100%;
+      height: inherit;
+
+      @include small-devices {
+          flex-direction: column;
+      }
+  }
+  &-section-two-container {
+      width: 100%;
+      height: 10vh;
+      border: 3px solid $primaryColor;
+      border-radius: 8px;
+      margin-right: 15px;
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      a {
+        color: $lightColor;
+      }
+      .logo-size {
+        font-size: 40px;
+      }
+  }
+  &-section-two-container a:hover {
+    color: $primaryLightColor;
+  }
+}

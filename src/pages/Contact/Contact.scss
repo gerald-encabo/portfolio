@@ -1,0 +1,130 @@
+@import '../../components/Media-queries.scss';
+@import '../../components/Color.scss';
+
+.contact {
+    min-height: calc(100vh - 150px);
+    width: 100%;
+    color: $lightColor;
+
+    @include small-devices {
+        height: 100%;
+    }
+
+    &-wrapper {
+        height: 100%;
+    }
+    &-container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        height: 50vh;
+
+        @include small-devices {
+            flex-direction: column;
+            height: 100%;
+            margin-bottom: 20px;
+        }
+    }
+    &-section-left {
+        width: 35%;
+        padding: 10px; 
+
+        @include small-devices {
+            width: 100%;
+        }
+
+        p {
+            padding-top: 2px;
+        }
+        span {
+            color: $fontColor;
+            font-size: 18px;
+            font-weight: 400;
+        }
+    }
+    &-section-right{
+        width: 65%;
+        height: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+
+        @include small-devices {
+            width: 100%;
+        }
+    }
+    &-input {
+        width: 100%;
+        height: 90%;
+   
+        &-left {
+            float: left;
+            width: 50%;
+            padding-right: 30px;
+
+            @include small-devices {
+                width: 100%;
+                float: center;
+                padding-right: 0;
+            }
+        }
+        &-right {
+            float: right;
+            width: 50%;
+
+            @include small-devices {
+                width: 100%;
+                float: center;
+            }
+
+        }
+    }
+    &-info-one, &-info-two, &-info-three  {
+        display: flex;
+        padding-bottom: 15px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    &-logo {
+        color: $primaryColor;
+        font-size: 36px;
+        padding-right: 10px;
+    }
+    &-txt {
+        width: 100%;
+        height: 100%;
+        border: 2px solid $fontColor;
+        color: $lightColor;
+        padding: 7px;
+        margin-bottom: 10px;
+        font-size: 16px;
+        font-family: 400;
+    }
+    &-txt-area {
+        width: 100%;
+        height: 65%;
+        resize: none;
+        border: 2px solid $fontColor;
+        color: $lightColor;
+        padding: 6px;
+        font-size: 16px;
+        font-family: 400;
+    }
+    &-btn {
+        border-radius: 50px 50px;
+        padding: 4px 16px;
+        font-size: 16px;
+        color: $lightColor;
+        background-color: $darkBackgroundColor;
+        border: 2px solid $primaryColor;
+        cursor: pointer;
+
+        &:hover {
+            border-color: $primaryLightColor;
+        }
+
+        @include small-devices {
+            margin: 5px 0;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+@import '../../components/Media-queries.scss';
+@import '../../components/Color.scss';
+
+.portfolio {
+    min-height: calc(100vh - 150px);
+    width: 100%;
+    color: $lightColor;
+
+    &-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+}

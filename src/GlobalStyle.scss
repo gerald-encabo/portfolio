@@ -1,0 +1,19 @@
+@import './components/Media-queries.scss';
+@import './components/Color.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  background-color: $darkColor;
+}
+
+.container {
+    max-width: 1300px;
+    width: 90%;
+    display: grid;
+    align-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}

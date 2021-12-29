@@ -1,0 +1,28 @@
+@import 'Media-queries.scss';
+@import 'Color.scss';
+
+.categories {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: .5rem;
+    margin-bottom: 30px;
+    
+    @media screen and (max-width: 500px){
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    &-btn {
+        border-radius: 50px 50px;
+        padding: 4px 16px;
+        font-size: 16px;
+        color: $lightColor;
+        background-color: $darkBackgroundColor;
+        border: 2px solid $primaryColor;
+        cursor: pointer;
+        text-align: center;
+
+        &:hover {
+            border-color: $primaryLightColor;
+        }
+    }
+}
