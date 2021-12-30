@@ -29,7 +29,7 @@ function Navbar() {
                             <NavLink to='/resume' exact={true} onClick={closeMobileMenu} className='navbar-links' activeClassName='current'>Resume</NavLink>
                          </li>
                          <li className='navbar-item'>
-                            <NavLink to='/portfolio' exact={true} onClick={closeMobileMenu} className='navbar-links' activeClassName='current'>Portfolio</NavLink>
+                            <NavLink to='/project' exact={true} onClick={closeMobileMenu} className='navbar-links' activeClassName='current'>Project</NavLink>
                          </li>
                          <li className='navbar-item'>
                             <NavLink to='/contact' exact={true} onClick={closeMobileMenu} className='navbar-links' activeClassName='current'>Contact</NavLink>

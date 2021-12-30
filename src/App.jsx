@@ -5,7 +5,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import About from './pages/About/About';
 import Resume from './pages/Resume/Resume';
-import Portfolio from './pages/Portfolio/Portfolio';
+import Project from './pages/Project/Project';
 import Contact from './pages/Contact/Contact';
 
 function App() {
@@ -25,9 +25,9 @@ function App() {
               </Route>
               <Route path='/' exact component={ About } />
               <Route path='/resume' exact component={ Resume } />
-              <Route path='/portfolio' exact component={ Portfolio }/>
+              <Route path='/project' exact component={ Project }/>
               <Route path='/contact' exact component={ Contact } />
-              <Route path='/*' exact component={ PageNotFound  }/>
+              <Route path='/*' exact component={ PageNotFound }/>
           </Switch>
           <Footer/>
       </Router>

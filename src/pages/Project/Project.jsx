@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './Portfolio.scss'
+import './Project.scss'
 import Data from '../../components/Data'
 import Header from '../../components/Header'
 import Categories from '../../components/Categories'
@@ -7,7 +7,7 @@ import MenuItems from '../../components/MenuItems'
 
 const allCategories = ['All', ...new Set(Data.map(item => item.category))];
 
-function Portfolio() {
+function Project() {
 
     const [categories, setCategories] = useState(allCategories);
     const [menuItems, setMenuItems] = useState(Data);
@@ -25,11 +25,11 @@ function Portfolio() {
     }
 
     return (
-        <div className='portfolio'>
-            <div className='portfolio-wrapper container'>
-                <Header title={'Portfolio'} desc={'My Project'} />
+        <div className='project'>
+            <div className='project-wrapper container'>
+                <Header title={'Project'} desc={'My Project'} />
             </div>
-            <div className='portfolio-container container'>
+            <div className='project-container container'>
                 <Categories filter={filter} categories={categories} />
                 <MenuItems menuItems={menuItems} />
             </div>
@@ -38,4 +38,4 @@ function Portfolio() {
 
 }
 
-export default Portfolio
+export default Project
