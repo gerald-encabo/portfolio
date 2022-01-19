@@ -9,7 +9,7 @@ function MenuItems({menuItems}) {
                     return <div className='menuitem-list' key={item.id}>
                         <div className='menuitem-tile'>
                             <p className='menuitem-title'>{item.title}</p>
-                            <img src={item.image} alt={item.alt} className='menuitem-img'/>
+                            <img src={process.env.PUBLIC_URL + item.image} alt={item.alt} className='menuitem-img'/>
                             <ul className='menuitem-link'>
                                 <li>
                                     <a href={item.link1} target="_blank">{item.icon1}</a>

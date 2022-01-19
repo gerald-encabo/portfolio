@@ -25,11 +25,12 @@ function Contact() {
                     </div>
                     <div className='contact-section-right'>
                         <Title title={'How Can I Help You?'}/>
-                        <form action='' method='POST'>
+                        <form action="https://formsubmit.co/geraldencabo@gmail.com" method="POST">
                             <div className='contact-input'>
                                 <div className='contact-input-left'>
+                                        <input type="hidden" name="_autoresponse" value="Auto-Response Email: Thanks for the message. I'll respond to your email as soon as I can. - Gerald"/>
                                         <input className='contact-txt' name='full name' type="text" placeholder='Full name' required />
-                                        <input className='contact-txt' name='email' type="text" placeholder='Email' required />
+                                        <input className='contact-txt' name='email' type="email" placeholder='Email' required />
                                         <input className='contact-txt' name='subject' type="text" placeholder='Subject' />
                                 </div>
                                 <div className='contact-input-right'>

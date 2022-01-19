@@ -2,15 +2,14 @@ import React from 'react'
 import './Resume.scss'
 import Title from '../../components/Title'
 import Header from '../../components/Header'
-
 import { ImHtmlFive } from 'react-icons/im'
 import { IoLogoCss3, IoLogoApple } from 'react-icons/io'
 import { BiNotepad } from 'react-icons/bi'
 import { AiOutlineConsoleSql } from 'react-icons/ai'
 import { DiDotnet, DiCodeBadge } from 'react-icons/di'
-import { FaLess, FaLinux, FaChrome, FaFirefox, FaInternetExplorer, FaDatabase, FaNodeJs} from 'react-icons/fa'
-import { SiJson, SiJava, SiPython, SiPhp, SiMysql, SiBootstrap, SiReact, SiSass, SiJquery, 
-         SiJavascript, SiWindows, SiVisualstudio, SiAtom, SiSublimetext, SiMongodb } from 'react-icons/si'
+import { FaLinux, FaChrome, FaFirefox, FaInternetExplorer, FaDatabase, FaNodeJs, FaLaravel} from 'react-icons/fa'
+import { SiJson, SiJava, SiPython, SiPhp, SiMysql, SiBootstrap, SiReact, SiSass, SiJquery, SiFirebase, 
+         SiJavascript, SiWindows, SiVisualstudio, SiAtom, SiSublimetext, SiMongodb, SiMicrosoftsqlserver } from 'react-icons/si'
 
 function Resume() {
     return (
@@ -28,7 +27,11 @@ function Resume() {
                                         <h4 className='program'>Honours Bachelor of Technology - Software Development</h4>
                                         <p className='desc'>
                                             <ul>
-                                                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus culpa doloremque nulla, dolor ullam illum libero exercitationem. Sunt, tenetur maiores.</li>
+                                                <li>Learn basic knowledge of web development such as HTML, CSS, and JavaScript</li>
+                                                <li>Design and structure standard database using SQL through MySQL and SQL Server system</li>
+                                                <li>Build a mobile app on the Android platform, and connect to a database using Firebase</li>
+                                                <li>Understand basic business principles and project management from a global perspective</li>
+                                                <li>Identify the customer needs and wants through evaluation of marketing process using case study model approach.</li>
                                             </ul>
                                         </p>                                    
                                     </div>
@@ -59,7 +62,7 @@ function Resume() {
                                         <p className='desc'>
                                             <ul>
                                                 <li> Front-End experience in building, designing, and maintaining responsive web applications using CMS and DAM platform Adobe Experience Manager</li>
-                                                <li> Work with Front-End technologies and framework including HTML, CSS (Sass), JavaScript, Bootstrap, jQuery, and JSON</li>
+                                                <li> Work with Front-End technologies and framework including HTML, CSS (Sass), JavaScript (React), Bootstrap, jQuery, and JSON</li>
                                                 <li> Web Content Accessibility Guideline (WCAG) and Accessibility for Ontarians with Disabilities Act (AODA) is used as a standard guideline when creating and developing web pages</li>
                                                 <li> Perform quality assurance and accessibility check using SiteImprove technology for fixing issues like bugs, broken links, typographical errors, and missing alt text for image</li>
                                                 <li> Adobe Photoshop was used for cropping and compressing the size of the image to improve web page performance specifically for mobile and tablet devices</li>
@@ -81,11 +84,11 @@ function Resume() {
                                 <div class="skills-icon"><p><ImHtmlFive className="logo-size"/><br/>HTML</p></div>
                                 <div class="skills-icon"><p><IoLogoCss3 className="logo-size"/><br/>CSS</p></div>
                                 <div class="skills-icon"><p><SiSass className="logo-size"/><br/>Sass</p></div>
-                                <div class="skills-icon"><p><FaLess className="logo-size"/><br/>Less</p></div>
                                 <div class="skills-icon"><p><SiJavascript className="logo-size"/><br/>JavaScript</p></div>
                                 <div class="skills-icon"><p><SiJson className="logo-size"/><br/>Json</p></div>
                                 <div class="skills-icon"><p><DiCodeBadge className="logo-size"/><br/>XML</p></div>
                                 <div class="skills-icon"><p><SiPython className="logo-size"/><br/>Python</p></div>
+                                <div class="skills-icon"><p><SiJava className="logo-size"/><br/>Java</p></div>
                             </div>            
                         </div>
 
@@ -95,6 +98,7 @@ function Resume() {
                                 <div class="skills-icon"><p><SiBootstrap className="logo-size"/><br/>Bootstrap</p></div>
                                 <div class="skills-icon"><p><SiJquery className="logo-size"/><br/>Jquery</p></div>
                                 <div class="skills-icon"><p><SiReact className="logo-size"/><br/>React</p></div>
+                                <div class="skills-icon"><p><FaLaravel className="logo-size"/><br/>Laravel</p></div>
                                 <div class="skills-icon"><p><DiDotnet className="logo-size"/><br/>ASP.Net</p></div>
                            </div> 
                         </div>
@@ -106,10 +110,12 @@ function Resume() {
                             <div className="skills-container">
                                 <div class="skills-icon"><p><AiOutlineConsoleSql className="logo-size"/><br/>SQL</p></div>
                                 <div class="skills-icon"><p><SiMysql className="logo-size"/><br/>MySQL</p></div>
+                                <div class="skills-icon"><p><SiMicrosoftsqlserver className="logo-size"/><br/>SQL Server</p></div>
                                 <div class="skills-icon"><p><FaDatabase className="logo-size"/><br/>NoSQL</p></div>
                                 <div class="skills-icon"><p><SiPhp className="logo-size"/><br/>PHP</p></div>
                                 <div class="skills-icon"><p><FaNodeJs className="logo-size"/><br/>NodeJS</p></div>
                                 <div class="skills-icon"><p><SiMongodb className="logo-size"/><br/>MongoDB</p></div>
+                                <div class="skills-icon"><p><SiFirebase className="logo-size"/><br/>Firebase </p></div>
                             </div>            
                         </div>
                         <div className='resume-section-two-right'>

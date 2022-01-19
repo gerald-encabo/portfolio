@@ -20,7 +20,7 @@ function App() {
           <ScrollToTop />
           <Navbar/>
           <Switch>
-              <Route path='/react-portfolio' exact>
+              <Route path='/portfolio' exact>
                   <Redirect to="/" />
               </Route>
               <Route path='/' exact component={ About } />

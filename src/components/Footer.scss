@@ -40,7 +40,7 @@
         color: $fontColor;
 
         @include small-devices {
-            text-align: start;
+            text-align: center;
         }
     }
     &-item-list {

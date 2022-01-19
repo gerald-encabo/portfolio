@@ -27,7 +27,7 @@ const portfolios = [
         id: 6,
         category: 'Professional',
         link1: 'https://github.com/geraldencabo/seneca-college-employee-portal',
-        link2: 'https://employees.senecacollege.ca/spaces/137/senecan-connect/home',
+        link2: 'https://employees.senecacollege.ca/',
         icon1: 'Code',
         icon2: 'Live',
         image: '/images/employee-intranet.png',
@@ -43,9 +43,9 @@ const portfolios = [
         icon1: 'Code',
         icon2: 'Live',
         image: '/images/credit-card.png',
-        alt: 'Credit Card home page',
-        title: 'Credit Card',
-        desc: 'This Credit Card React App is responsive on all devices with multiple pages and components.'
+        alt: 'Guardian home page',
+        title: 'Guardian',
+        desc: 'This Guardian Credit Card React App is responsive on all devices with multiple pages and components.'
     },
     {
         id: 2,
@@ -79,21 +79,33 @@ const portfolios = [
         icon1: 'Code',
         icon2: 'Live',
         image: '/images/travel.png',
-        alt: 'Credit Card home page',
-        title: 'Credit Card',
-        desc: 'This Travel Agency React App is fully responsive on all devices including mobile phones and tablets.'
+        alt: 'Levart Travel Agency home page',
+        title: 'Levart Travel Agency',
+        desc: 'This Levart Travel Agency React App is fully responsive on all devices including mobile phones and tablets.'
     },
     {
         id: 5,
         category: 'Personal',
         link1: 'https://github.com/geraldencabo/cyber-city-comix',
-        link2: 'https://geraldencabo.github.io/',
+        link2: 'https://geraldencabo.github.io/cyber-city-comix/',
         icon1: 'Code',
         icon2: 'Live',
         image: '/images/comix.png',
         alt: 'Cyber City Comix home page',
         title: 'Cyber City Comix',
         desc: 'This is Cyber City Comix react app is a responsive and accessibility-friendly web page.'
+    },
+    {
+        id: 9,
+        category: 'Personal',
+        link1: 'https://github.com/geraldencabo/pizza-app',
+        link2: 'https://github.com/geraldencabo/pizza-app',
+        icon1: 'Code',
+        icon2: 'Live',
+        image: '/images/pizza-house.png',
+        alt: 'Pizza House home page',
+        title: 'Pizza House',
+        desc: 'Pizza House is a web page based on laravel.'
     }
 ]
 

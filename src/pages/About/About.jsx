@@ -27,7 +27,7 @@ function About() {
                     <div className='about-section-one'>
                         <div className='about-section-one-left'>
                             <div className='logo'>
-                                <img src='/images/me.png' alt='Gerald Encabo'/>
+                                <img src={process.env.PUBLIC_URL + '/images/me.png'}  alt='Gerald Encabo'/>
                             </div>
                         </div>
                         <div className='about-section-one-right'>
@@ -53,7 +53,7 @@ function About() {
                                 <a href="https://www.instagram.com/gerald.encabo/" title="Instagram" target="_blank"><SiInstagram className="logo-size"/></a>
                             </div>
                             <div className="about-section-two-container">
-                                <a href="https://www.linkedin.com/in/gerald-f-encabo-893a741a7/" title="Linkedin" target="_blank"><SiLinkedin className="logo-size"/></a>
+                                <a href="https://www.linkedin.com/in/gerald-f-encabo-893a741a7/" title="LinkedIn" target="_blank"><SiLinkedin className="logo-size"/></a>
                             </div>
                             <div className="about-section-two-container">
                                 <a href="https://github.com/geraldencabo" title="Github" target="_blank"><FaGithub className="logo-size"/></a>
