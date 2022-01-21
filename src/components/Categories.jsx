@@ -6,7 +6,7 @@ function Categories({filter, categories}) {
         <div className='categories'>
             {
                 categories.map((category, count) => {
-                    return <a type='button' className='categories-btn active' onClick={() => filter(category)}  key={count}> {category} </a>
+                    return <button type='button' className='categories-btn active' onClick={() => filter(category)}  key={count}> {category} </button>
                 })
             }
         </div>

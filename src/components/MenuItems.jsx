@@ -12,8 +12,8 @@ function MenuItems({menuItems}) {
                             <img src={process.env.PUBLIC_URL + item.image} alt={item.alt} className='menuitem-img'/>
                             <ul className='menuitem-link'>
                                 <li>
-                                    <a href={item.link1} target="_blank">{item.icon1}</a>
-                                    <a href={item.link2} target="_blank">{item.icon2}</a>
+                                    <a href={item.link1} target="_blank" rel="noreferrer">{item.icon1}</a>
+                                    <a href={item.link2} target="_blank" rel="noreferrer">{item.icon2}</a>
                                 </li>
                             </ul>
                         </div>

@@ -47,16 +47,16 @@ function About() {
                         <Title title={'Social Media'}/>
                         <div className="about-section-two-info">
                             <div className="about-section-two-container">
-                                <a href="https://www.facebook.com/gerald.encabo.5/" title="Facebook" target="_blank"><GrFacebook className="logo-size"/></a>
+                                <a href="https://www.facebook.com/gerald.encabo.5/" title="Facebook" target="_blank" rel="noreferrer"><GrFacebook className="logo-size"/></a>
                             </div>
                             <div className="about-section-two-container">
-                                <a href="https://www.instagram.com/gerald.encabo/" title="Instagram" target="_blank"><SiInstagram className="logo-size"/></a>
+                                <a href="https://www.instagram.com/gerald.encabo/" title="Instagram" target="_blank" rel="noreferrer"><SiInstagram className="logo-size"/></a>
                             </div>
                             <div className="about-section-two-container">
-                                <a href="https://www.linkedin.com/in/gerald-f-encabo/" title="LinkedIn" target="_blank"><SiLinkedin className="logo-size"/></a>
+                                <a href="https://www.linkedin.com/in/gerald-f-encabo/" title="LinkedIn" target="_blank" rel="noreferrer"><SiLinkedin className="logo-size"/></a>
                             </div>
                             <div className="about-section-two-container">
-                                <a href="https://github.com/geraldencabo" title="Github" target="_blank"><FaGithub className="logo-size"/></a>
+                                <a href="https://github.com/geraldencabo" title="Github" target="_blank" rel="noreferrer"><FaGithub className="logo-size"/></a>
                             </div>
                         </div>
                     </div>
