@@ -13,7 +13,7 @@ function Footer() {
                         <ul>
                             <li className='footer-item-list'><a className='footer-social-media' href='http://facebook.com/' target='_blank' rel='noreferrer'>Facebook</a></li>
                             <li className='footer-item-list'><a className='footer-social-media' href='https://www.instagram.com/' target='_blank' rel='noreferrer'>Instagram</a></li>
-                            <li className='footer-item-list'><a className='footer-social-media' href='https://www.linkedin.com/in/gerald-f-encabo-893a741a7/' target='_blank' rel='noreferrer'>LinkedIn</a></li>
+                            <li className='footer-item-list'><a className='footer-social-media' href='https://www.linkedin.com/in/gerald-f-encabo/' target='_blank' rel='noreferrer'>LinkedIn</a></li>
                             <li className='footer-item-list'><a className='footer-social-media' href='https://github.com/geraldencabo' target='_blank' rel='noreferrer'>Github</a></li>
                         </ul>
                     </div>
