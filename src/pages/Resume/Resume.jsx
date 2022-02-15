@@ -44,7 +44,7 @@ function Resume() {
                                 <div className='education-info-layer-two'>
                                     <div className='education-info-layer-three'>
                                         <p className='college'><span>2020 - Present</span> Seneca College</p>
-                                        <h4 className='program'>Front-End Web Developer (contract)</h4>
+                                        <h4 className='program'>Front-End Developer (contract)</h4>
                                         <p className='desc'>
                                             <ul>
                                                 <li>Create and update web space and landing page (home page) using build-in widgets in Intranet software Axero Solutions</li>
@@ -52,13 +52,14 @@ function Resume() {
                                                 <li>Provide direct assistance and tutorial with the page administrator on developing and updating web space and landing page</li>
                                                 <li>Maintain and update existing webspace and content including images, videos, links, and file attachment</li>
                                                 <li>Track web performance and workflow using build-in Analytics data feature in Axero Solutions Technology</li>
-                                                <li>Minimal use of Front-End language and framework such as HTML, CSS and Bootstrap for webpage design, and layout</li>                                                           
+                                                <li>Use of Front-End languages and framework such as HTML, CSS and Bootstrap for webpage design, and layout</li> 
+                                                <li>Architected website structure templates using GlooMaps, and presented a UX design for the home page using Figma</li>                                                          
                                             </ul>
                                         </p>
                                     </div>
                                     <div className='education-info-layer-three'>
                                         <p className='work'><span>2018 - 2020</span> Seneca College</p>
-                                        <h4 className='position'>Student Web Developer (co-op)</h4>
+                                        <h4 className='position'>Front-End Developer (co-op)</h4>
                                         <p className='desc'>
                                             <ul>
                                                 <li> Front-End experience in building, designing, and maintaining responsive web applications using CMS and DAM platform Adobe Experience Manager</li>
@@ -115,7 +116,6 @@ function Resume() {
                                 <div class="skills-icon"><p><SiPhp className="logo-size"/><br/>PHP</p></div>
                                 <div class="skills-icon"><p><FaNodeJs className="logo-size"/><br/>NodeJS</p></div>
                                 <div class="skills-icon"><p><SiMongodb className="logo-size"/><br/>MongoDB</p></div>
-                                <div class="skills-icon"><p><SiFirebase className="logo-size"/><br/>Firebase </p></div>
                             </div>            
                         </div>
                         <div className='resume-section-two-right'>
