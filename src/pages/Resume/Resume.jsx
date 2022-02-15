@@ -8,14 +8,14 @@ import { BiNotepad } from 'react-icons/bi'
 import { AiOutlineConsoleSql } from 'react-icons/ai'
 import { DiDotnet, DiCodeBadge } from 'react-icons/di'
 import { FaLinux, FaChrome, FaFirefox, FaInternetExplorer, FaDatabase, FaNodeJs, FaLaravel} from 'react-icons/fa'
-import { SiJson, SiJava, SiPython, SiPhp, SiMysql, SiBootstrap, SiReact, SiSass, SiJquery, SiFirebase, 
+import { SiJson, SiJava, SiPython, SiPhp, SiMysql, SiBootstrap, SiReact, SiSass, SiJquery, 
          SiJavascript, SiWindows, SiVisualstudio, SiAtom, SiSublimetext, SiMongodb, SiMicrosoftsqlserver } from 'react-icons/si'
 
 function Resume() {
     return (
         <div className='resume'>
             <div className='resume-wrapper container'>
-                <Header title={'Resume'} desc={'2+ years of Experience'} />
+                <Header title={'Resume'} desc={'4+ years of Experience'} />
                 <div className='resume-container'>
                     <div className='resume-section-one'>
                         <div className='resume-section-one-left'>
