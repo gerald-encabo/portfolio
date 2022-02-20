@@ -34,7 +34,7 @@ function About() {
                             <h4>Hi there, I'm</h4>
                             <h1>Gerald Encabo</h1>
                             <h3>Front-End <span ref={ textRef }></span></h3>
-                            <p>Junior Web Developer with two years of experience building and maintaining responsive
+                            <p>Junior Web Developer with four years of experience building and maintaining responsive
                                 websites in the education industry. Proficient in HTML, CSS, JavaScript; plus, modern libraries
                                 and frameworks. Self-motivated toward learning new skills and adapting latest technologies. </p>
                             <NavLink to='/contact'>
