@@ -15,7 +15,7 @@ function Resume() {
     return (
         <div className='resume'>
             <div className='resume-wrapper container'>
-                <Header title={'Resume'} desc={'4+ years of Experience'} />
+                <Header title={'Resume'} desc={'3+ years of Experience'} />
                 <div className='resume-container'>
                     <div className='resume-section-one'>
                         <div className='resume-section-one-left'>
