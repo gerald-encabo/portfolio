@@ -1,0 +1,32 @@
+.title {
+  position: relative;
+  margin-bottom: 30px;
+  padding-bottom: 2px;
+}
+
+.title h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.title::before {
+  position: absolute;
+  content: '';
+  bottom: -5px;
+  left: 0;
+  background-color: #757575;
+  width: 120px;
+  height: 3px;
+  border-radius: 100px;
+}
+
+.title::after {
+  position: absolute;
+  content: '';
+  bottom: -5px;
+  left: 0;
+  background-color: #004d99;
+  width: 32px;
+  height: 3px;
+  border-radius: 100px;
+}

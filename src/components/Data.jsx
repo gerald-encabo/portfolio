@@ -2,7 +2,7 @@ const portfolios = [
     {
         id: 7,
         category: 'Co-op',
-        link1: 'https://github.com/geraldencabo/seneca-college',
+        link1: 'https://github.com/gerald-encabo/seneca-college',
         link2: 'https://www.senecacollege.ca/home.html',
         icon1: 'Code',
         icon2: 'Live',
@@ -14,7 +14,7 @@ const portfolios = [
     {
         id: 8,
         category: 'Professional',
-        link1: 'https://github.com/geraldencabo/seneca-college-student-portal',
+        link1: 'https://github.com/gerald-encabo/seneca-college-student-portal',
         link2: 'https://students.senecacollege.ca/',
         icon1: 'Code',
         icon2: 'Live',
@@ -26,7 +26,7 @@ const portfolios = [
     {
         id: 6,
         category: 'Professional',
-        link1: 'https://github.com/geraldencabo/seneca-college-employee-portal',
+        link1: 'https://github.com/gerald-encabo/seneca-college-employee-portal',
         link2: 'https://employees.senecacollege.ca/',
         icon1: 'Code',
         icon2: 'Live',
@@ -38,11 +38,11 @@ const portfolios = [
     {
         id: 1,
         category: 'Personal',
-        link1: 'https://github.com/geraldencabo/credit-card-app',
-        link2: 'https://geraldencabo.github.io/credit-card-app/',
+        link1: 'https://github.com/gerald-encabo/guardian-credit-card',
+        link2: 'https://guardian-credit-card.herokuapp.com/',
         icon1: 'Code',
         icon2: 'Live',
-        image: '/images/credit-card.png',
+        image: '/images/guardian-credit-card.JPG',
         alt: 'Guardian home page',
         title: 'Guardian',
         desc: 'This Guardian Credit Card React App is responsive on all devices with multiple pages and components.'
@@ -50,8 +50,8 @@ const portfolios = [
     {
         id: 2,
         category: 'Personal',
-        link1: 'https://github.com/geraldencabo/book-search-app',
-        link2: 'https://geraldencabo.github.io/book-search-app/',
+        link1: 'https://github.com/gerald-encabo/book-search-app',
+        link2: 'https://gerald-encabo.github.io/book-search-app/',
         icon1: 'Code',
         icon2: 'Live',
         image: '/images/book-search.png',
@@ -62,8 +62,8 @@ const portfolios = [
     {
         id: 3,
         category: 'Personal',
-        link1: 'https://github.com/geraldencabo/restaurant-app',
-        link2: 'https://geraldencabo.github.io/restaurant-app/',
+        link1: 'https://github.com/gerald-encabo/restaurant-app',
+        link2: 'https://gerald-encabo.github.io/restaurant-app/',
         icon1: 'Code',
         icon2: 'Live',
         image: '/images/ramen.png',
@@ -74,8 +74,8 @@ const portfolios = [
     {
         id: 4,
         category: 'Personal',
-        link1: 'https://github.com/geraldencabo/travel-app',
-        link2: 'https://geraldencabo.github.io/travel-app/',
+        link1: 'https://github.com/gerald-encabo/travel-app',
+        link2: 'https://gerald-encabo.github.io/travel-app/',
         icon1: 'Code',
         icon2: 'Live',
         image: '/images/travel.png',
@@ -86,8 +86,8 @@ const portfolios = [
     {
         id: 5,
         category: 'Personal',
-        link1: 'https://github.com/geraldencabo/cyber-city-comix',
-        link2: 'https://geraldencabo.github.io/cyber-city-comix/',
+        link1: 'https://github.com/gerald-encabo/cyber-city-comix',
+        link2: 'https://gerald-encabo.github.io/cyber-city-comix/',
         icon1: 'Code',
         icon2: 'Live',
         image: '/images/comix.png',
@@ -98,8 +98,8 @@ const portfolios = [
     {
         id: 9,
         category: 'Personal',
-        link1: 'https://github.com/geraldencabo/pizza-app',
-        link2: 'https://github.com/geraldencabo/pizza-app',
+        link1: 'https://github.com/gerald-encabo/pizza-app',
+        link2: 'https://github.com/gerald-encabo/pizza-app',
         icon1: 'Code',
         icon2: 'Live',
         image: '/images/pizza-house.png',

@@ -2,7 +2,7 @@
 
 This is a ReactJs portfolio webpage, and responsive on all devices. This webpage's main focus is Html, Css (Sass), and JavaScript (React), and I have included a top-quality images.
 
-Live Site: https://geraldencabo.github.io/portfolio/
+Live Site: https://gerald-encabo.github.io/portfolio/
 
 Main Page Display:
 
